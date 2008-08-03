@@ -1,0 +1,21 @@
+Global setup:
+  git config --global user.email dgoodwin@gmail.com
+      
+Next steps:
+  mkdir lossless
+  cd lossless
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:douglasgoodwin/lossless.git
+  git push origin master
+      
+Existing Git Repo?
+  cd existing_git_repo
+  git remote add origin git@github.com:douglasgoodwin/lossless.git
+  git push origin master
+      
+When you're done:
+  Continue
+
